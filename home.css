@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin:auto;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#menu {
+    margin-top: 10px;
+    float: right;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+a:hover{
+    background: grey;
+    border-radius: 4px;}
+
+.home{
+    background: url("background1.png");
+    display: inline-block;
+    height: 876px;
+    width: 100%;
+}
+
+#me{
+    border-radius: 30px;
+    height: 400px;
+}
+
+.sredina{
+    text-align: center;
+}
+
+.sredina h1{
+    font-size: 100px;
+}
+
+.sredina p{
+    font-size: 30px;
+}
+
+.sredina h1,p{
+    color: #ffffe0;
+}
+
+.cont{
+    background: url("background2.png");
+    height: 417px;
+    width: 100%;
+}
+
+
+.cont h1{
+    text-align: center;
+    font-size: 80px;
+color: #f6f600;
+}
+
+.cont label{
+    font-size: 20px;
+    color: #f6f600;
+}
+
+.cont p{
+    font-size: 20px;
+    margin-left: 400px;
+    background-color: rgba(0, 0, 0, 0.36);
+    display: inline-block;
+}
+
+.cont fieldset{
+    padding-right: 400px;
+    display: inline-block;
+    float: right;
+}
+
+.skill h2{
+    background-color: rgba(0, 0, 139, 0.16);
+    font-size: 50px;
+    color: darkblue;
+    text-align: center;
+}
+ .program h5{
+     margin-left: 30px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-size: 20px ;
+     color: darkslateblue;
+ }
+
+ #vtora{
+     display: inline-block;
+     width: 400px;
+     margin-left: 20px;
+     margin-right: 30px;
+ }
+
+ #prva{
+     display: inline-block;
+     width: 400px;
+ }
+
+ .jazik{
+     display: inline-block;
+     float: right;
+     margin-right: 200px;
+     margin-top: 50px;
+ }
+
+ .program{
+     display: inline-block;
+ }
+
+ .skill{
+     margin-bottom:50px;
+ }
+
+ .jazik h5{
+     font-size: 20px;
+     color: darkslateblue;
+ }
+
+ .jazik li{
+     color: #1b1636;
+     font-size: 20px;
+     padding-top: 5px;
+ }
+
+ .jazik{
+     background-color: rgba(214, 225, 241, 0.23);
+ }
+
+.jazik ul li {
+    color: darkblue;
+    margin: 5px;
+    list-style-type: circle;
+}
+
+.ab h2{
+    margin-top: 30px;
+    background-color: rgba(100, 0, 139, 0.16);
+    font-size: 50px;
+    color: #3f008b;
+    text-align: center;
+}
+
+.ab p{
+    color: #1b1636;
+   font-size: 20px;
+}
+
+.tekst{
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.slika{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 80px;
+}
